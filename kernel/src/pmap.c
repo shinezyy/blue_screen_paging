@@ -1,5 +1,6 @@
 #include"memlayout.h"
 #include"x86.h"
+#include"pmap.h"
 
 
 #define npages (1<<15)			// Amount of physical memory (in pages)
